@@ -20,7 +20,7 @@ class MyWidget extends StatelessWidget {
           scrollDirection: Axis.vertical,
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
-            crossAxisAlignment: CrossAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center, 
           children: List.generate(100, (index)=>Icon(
               Icons.radar,
               color: Colors.yellow,
